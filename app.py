@@ -7,7 +7,7 @@ app.secret_key = 'vida'  # Substitua por uma chave secreta segura
 def restart_remote_system():
     hostname = "192.168.1.31"
     username = "root"
-    password = "darepo12"
+    password = "SENHA"
     command = "systemctl restart apache2"
 
     client = paramiko.SSHClient()
